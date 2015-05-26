@@ -1,0 +1,57 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Photofolio</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.min.css">
+		<script src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+		<script src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+		<script>
+			$(function() {
+				$( "#container" ).tabs();
+				$( "#greece" ).selectmenu().selectmenu( "menuWidget" ).addClass( "overflow" );
+			});
+		</script>
+		<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div id="container">
+			<ul>
+				<li><a href="#tabs-1">Home</a></li>
+				<li><a href="#tabs-2">Greece</a></li>
+				<li><a href="#tabs-3">United Kingdom</a></li>
+				<li><a href="#tabs-4">About Me</a></li>
+			</ul>
+			 <div id="tabs-1">
+				<p class="home-text">Welcome to my Travelling Photos portfolio.</p>
+			 </div>
+			 <div id="tabs-2">
+				<!-- <label for="greece">Select a region:</label> -->
+				<select name="greece" id="greece">
+					<option value="thessaloniki" selected>Thessaloniki</option>
+					<option value="athens">Athens</option>
+					<option value="epirus">Corfu</option>
+					<option value="ionian">Epirus</option>
+					<option value="aegean">Crete</option>
+					<option value="chalkidiki">Chalkidiki</option>
+				</select>
+			 </div>
+			 <div id="tabs-3">
+				<p></p>
+			 </div>
+			 <div id="tabs-4">
+				<img class="myphoto" src="images/me.jpg" alt="me">
+				<p class="aboutme">I am an IT Graduate from the Ionian University, currently occupied with a great variety of activities. I am passionate about Geography and Computers, especially when these two are combined. Except from my interest on Spatial Computing, I am also fascinated by Artificial Intelligence and Data Analysis as well as programming (web or not).</p>
+				<p class="aboutme">Apart from the abovementioned, I am an amateur photographer specializing in Travel Photography. This is my personal portfolio of photos, organised in regions.</p><br />
+				<div class="social">
+					<a href="https://www.facebook.com/anti.fou" target="_blank"><i class="fa fa-facebook-square"></i></a>
+					<a href="https://twitter.com/AntiFou" target="_blank"><i class="fa fa-twitter-square"></i></a>
+					<a href="https://gr.linkedin.com/in/amfounta" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+					<a href="https://www.flickr.com/photos/andylope/" target="_blank"><i class="fa fa-flickr"></i></a>
+				</div>
+				<div class="clear"></div>
+			 </div>
+		</div>
+	</body>
+</html>
