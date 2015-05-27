@@ -5,50 +5,153 @@
 		<title>Photofolio</title>
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		<link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.min.css">
+		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Pacifico'>
 		<script src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
 		<script src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
 		<script>
 			$(function() {
 				$( "#container" ).tabs();
-				$( "#greece" ).selectmenu().selectmenu( "menuWidget" ).addClass( "overflow" );
+				$( "#gr" ).selectmenu().selectmenu( "menuWidget" ).addClass( "overflow" );
+				$( "#uk" ).selectmenu().selectmenu( "menuWidget" ).addClass( "overflow" );
 			});
 		</script>
 		<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
 	</head>
 	<body>
+		<div id="logo">Photofolio</div>
 		<div id="container">
 			<ul>
-				<li><a href="#tabs-1">Home</a></li>
-				<li><a href="#tabs-2">Greece</a></li>
-				<li><a href="#tabs-3">United Kingdom</a></li>
-				<li><a href="#tabs-4">About Me</a></li>
+				<!-- <li><a href="#tabs-1">Home</a></li> -->
+				<li><a href="#about">About</a></li>
+				<li><a href="#tabs-2">GR</a></li>
+				<li><a href="#tabs-3">UK</a></li>
+				<li><a href="#tabs-4">SL</a></li>
+				<li><a href="#tabs-5">AU</a></li>
 			</ul>
-			 <div id="tabs-1">
-				<p class="home-text">Welcome to my Travelling Photos portfolio.</p>
+			 <!-- <div id="tabs-1">
+				<p class="home-text">Welcome to my personal photography portfolio.</p>
+			 </div> -->
+			 <div id="about">
+				<div class="myphoto">
+					<img class="myphoto" src="images/me.jpg" alt="me">
+					<div class="social">
+						<a class="fb" href="https://www.facebook.com/anti.fou" target="_blank"><i class="fa fa-facebook-square"></i></a>
+						<a class="tt" href="https://twitter.com/AntiFou" target="_blank"><i class="fa fa-twitter-square"></i></a>
+						<a class="li" href="https://gr.linkedin.com/in/amfounta" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+						<a class="fr" href="https://www.flickr.com/photos/andylope/" target="_blank"><i class="fa fa-flickr"></i></a>
+						<!-- <a class="wp" href="#" target="_blank"><i class="fa fa-wordpress"></i></a> -->
+					</div>
+				</div>
+				<div class="aboutme">
+					<p><h3>Hello and welcome to my personal photography portfolio!</h3> Here is presented a set of my travelling photos. Each tab represents the country of each group of photos, which then are organised in regions.<br /> All photos belong to Antigone M. Founta and are <b>not</b> free to use. <p>
+					<h2>About Me</h2>
+					<p>My name is Antigone M. Founta and I am an addicted traveller occupied with anything related to travelling. I love the adventures of wandering around the globe (which me and my travelling buddy describe at our personal blog, <a class="text-url" href="https://greekstravelling.wordpress.com/" target="_blank">G(r)eeks Travelling</a>) and cannot go anywhere without my Nikon 5100. An amateur photographer, specializing in Travel Photography. Apart from the abovementioned I am also an IT Graduate passionate about a great amount of things, among which are Spatial Computing, Artificial Intelligence and Data Mining, Web Development and many more.</p>
+				</div>
+				<div class="footer">
+					<i class="fa fa-copyright"></i><a class="text-url" href="http://www.amfounta.com/">amfounta</a> - Background Image designed by <a class="text-url" href="http://lea.verou.me/css3patterns/#madras" target="_blank">Divya Manian</a>
+				</div>
+				<div class="clear"></div>
 			 </div>
 			 <div id="tabs-2">
-				<!-- <label for="greece">Select a region:</label> -->
-				<select name="greece" id="greece">
-					<option value="thessaloniki" selected>Thessaloniki</option>
+				<!-- <label for="gr">Select a region:</label> 
+				<select name="gr" id="gr">
+					<option value="all" selected>All</option>
+					<option value="thessaloniki">Thessaloniki</option>
 					<option value="athens">Athens</option>
-					<option value="epirus">Corfu</option>
-					<option value="ionian">Epirus</option>
+					<option value="epirus">Epirus</option>
+					<option value="ionian">Ionian</option>
 					<option value="aegean">Crete</option>
-					<option value="chalkidiki">Chalkidiki</option>
-				</select>
+				</select>-->
+				
+				<div class="photos">
+					<article class="ionian">
+						<a href="https://www.flickr.com/photos/andylope/17548613050" title="Voutoumi, Antipaksoi, Greece by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8800/17548613050_0b807120b8_k.jpg" width="2048" height="1356" alt="Voutoumi, Antipaksoi, Greece"></a>
+					</article>
+					<article class="ionian">
+						<a href="https://www.flickr.com/photos/andylope/17895938378" title="Kioni, Ithaca, Greece by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8797/17895938378_a41295b676_k.jpg" width="2048" height="1356" alt="Kioni, Ithaca, Greece"></a>
+					</article>
+					<article class="epirus">					
+						<a href="https://www.flickr.com/photos/andylope/17897664489" title="In God we Trust, Parga, Greece by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8884/17897664489_f80a07aff0_k.jpg" width="2048" height="1356" alt="In God we Trust, Parga, Greece"></a>
+					</article>
+					<article class="thessaloniki">
+						<a href="https://www.flickr.com/photos/andylope/16737232632" title="Thessaloniki by Night, Greece by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8613/16737232632_4057e63ef6_k.jpg" width="2048" height="1356" alt="Thessaloniki by Night, Greece"></a>
+					</article>
+					<article class="ionian">
+						<a href="https://www.flickr.com/photos/andylope/16530793937" title="Roar by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8568/16530793937_3ee9f9a04a_k.jpg" width="2048" height="1356" alt="Roar"></a>
+					</article>
+					<article class="ionian">
+						<a href="https://www.flickr.com/photos/andylope/16736964662" title="Mouragia, Corfu, Greece by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8589/16736964662_12d49aa266_k.jpg" width="2048" height="1356" alt="Mouragia, Corfu, Greece"></a>
+					</article>
+					<article class="ionian">
+						<a href="https://www.flickr.com/photos/andylope/16736846131" title="Storm-y Corfu, Greece by Andy Fou, on Flickr"><img class="item-vertical" src="https://farm9.staticflickr.com/8561/16736846131_8d7aa0344c.jpg" alt="Storm-y Corfu, Greece"></a>
+					</article>			
+					<article class="thessaloniki">
+						<a href="https://www.flickr.com/photos/andylope/16551938169" title="Thessaloniki, Greece by Andy Fou, on Flickr"><img class="item-vertical" src="https://c1.staticflickr.com/9/8609/16551938169_c51bc27ab5_k.jpg" width="1356" height="2048" alt="Thessaloniki, Greece"></a>
+					</article>
+					<article class="epirus">
+						<a href="https://www.flickr.com/photos/andylope/17463424213" title="Preveza, Greece by Andy Fou, on Flickr"><img class="item-vertical" src="https://c4.staticflickr.com/8/7742/17463424213_5bcbf79519_k.jpg" width="1356" height="2048" alt="Preveza, Greece"></a>
+					</article>
+					<article class="thessaloniki">
+						<a href="https://www.flickr.com/photos/andylope/16550649400" title="Thessaloniki port, Greece by Andy Fou, on Flickr"><img class="item-vertical" src="https://c1.staticflickr.com/9/8628/16550649400_62a055b72f_k.jpg" width="1356" height="2048" alt="Thessaloniki port, Greece"></a>
+					</article>
+					<article class="ionian">
+						<a href="https://www.flickr.com/photos/andylope/17897692609" title="Egkremnoi Beach, Lefkada, Greece by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c4.staticflickr.com/8/7701/17897692609_e4c5ddcc40_k.jpg" width="2048" height="1356" alt="Egkremnoi Beach, Lefkada, Greece"></a>
+					</article>
+					<article class="thessaloniki">
+						<a href="https://www.flickr.com/photos/andylope/16550821370" title="Extreme Sports @ White Tower, Thessaloniki, Greece by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8625/16550821370_61d84d4418_k.jpg" width="2048" height="1367" alt="Extreme Sports @ White Tower, Thessaloniki, Greece"></a>
+					</article>
+					<article class="thessaloniki">
+						<a href="https://www.flickr.com/photos/andylope/16551913369" title="Thessaloniki, Greece by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8675/16551913369_e202fcc57e_k.jpg" width="2048" height="1356" alt="Thessaloniki, Greece"></a>
+					</article>
+				</div>
+				<div class="clear"></div>
 			 </div>
 			 <div id="tabs-3">
-				<p></p>
+				<!-- <label for="uk">Select a region:</label>
+				<select name="uk" id="uk">
+					<option value="all" selected>All</option>
+					<option value="london">London</option>
+					<option value="oxford">Oxford</option>
+					<option value="scotland">Scotland</option>
+				</select> -->
+				<div class="photos">
+					<article class="london">
+						<a href="https://www.flickr.com/photos/andylope/16116001694" title="London Business Centre, UK by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8631/16116001694_b47cd46ede_k.jpg" width="2048" height="920" alt="London Business Centre, UK"></a>
+					</article>
+					<article class="bath">
+						<a href="https://www.flickr.com/photos/andylope/16552184579" title="British Wedding, Bath, UK by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8566/16552184579_95074c16ea_k.jpg" width="2048" height="1365" alt="British Wedding, Bath, UK"></a>
+					</article>
+					<article class="vienna">
+						<a href="https://www.flickr.com/photos/andylope/16737228782" title="Modelling, Stonehedge, UK by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8656/16737228782_23df45f249_k.jpg" width="2048" height="1365" alt="Modelling, Stonehedge, UK"></a>
+					</article>
+				</div>
+				<div class="clear"></div>
 			 </div>
 			 <div id="tabs-4">
-				<img class="myphoto" src="images/me.jpg" alt="me">
-				<p class="aboutme">I am an IT Graduate from the Ionian University, currently occupied with a great variety of activities. I am passionate about Geography and Computers, especially when these two are combined. Except from my interest on Spatial Computing, I am also fascinated by Artificial Intelligence and Data Analysis as well as programming (web or not).</p>
-				<p class="aboutme">Apart from the abovementioned, I am an amateur photographer specializing in Travel Photography. This is my personal portfolio of photos, organised in regions.</p><br />
-				<div class="social">
-					<a href="https://www.facebook.com/anti.fou" target="_blank"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://twitter.com/AntiFou" target="_blank"><i class="fa fa-twitter-square"></i></a>
-					<a href="https://gr.linkedin.com/in/amfounta" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-					<a href="https://www.flickr.com/photos/andylope/" target="_blank"><i class="fa fa-flickr"></i></a>
+				<div class="photos">
+					<article class="bratislava">
+						<a href="https://www.flickr.com/photos/andylope/17548413978" title="St. Martin&#x27;s Cathedral, Bratislava, Slovakia by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c2.staticflickr.com/6/5341/17548413978_d7114ab077_k.jpg" width="2048" height="1330" alt="St. Martin&#x27;s Cathedral, Bratislava, Slovakia"></a>
+					</article>
+					<article class="bratislava">
+						<a href="https://www.flickr.com/photos/andylope/16551889429" title="Bratislava by night, Slovakia by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8621/16551889429_8e597c966b_k.jpg" width="2048" height="1025" alt="Bratislava by night, Slovakia"></a>
+					</article>
+					<article class="bratislava">
+						<a href="https://www.flickr.com/photos/andylope/16738009565" title="Bratislava Castle (Hrad), Slovakia by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8570/16738009565_bf24cd511b_k.jpg" width="2048" height="1356" alt="Bratislava Castle (Hrad), Slovakia"></a>
+					</article>
+				</div>
+				<div class="clear"></div>
+			 </div>
+			 <div id="tabs-5">
+				<div class="photos">
+					<article class="vienna">
+						<a href="https://www.flickr.com/photos/andylope/16551909719" title="Stadtpark, Vienna, Austria by Andy Fou, on Flickr"><img class="item-vertical" src="https://c1.staticflickr.com/9/8585/16551909719_d2c5dea044_k.jpg" width="1356" height="2048" alt="Stadtpark, Vienna, Austria"></a>
+					</article>
+					<article class="vienna">
+						<a href="https://www.flickr.com/photos/andylope/16551915349" title="Street Singing, Vienna, Austria by Andy Fou, on Flickr"><img class="item-vertical" src="https://c1.staticflickr.com/9/8677/16551915349_3520e7c27a_k.jpg" width="1356" height="2048" alt="Street Singing, Vienna, Austria"></a>
+					</article>
+					<article class="vienna">
+						<a href="https://www.flickr.com/photos/andylope/16115717374" title="Hundertwasserhaus, Vienna, Austria by Andy Fou, on Flickr"><img class="item-horizontal" src="https://c1.staticflickr.com/9/8602/16115717374_cc19daa59d_k.jpg" width="2048" height="1479" alt="Hundertwasserhaus, Vienna, Austria"></a>
+					</article>
 				</div>
 				<div class="clear"></div>
 			 </div>
