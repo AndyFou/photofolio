@@ -1,0 +1,105 @@
+body {
+	background-color: hsl(0, 0%, 87%);
+	background-image: 
+	repeating-linear-gradient(45deg, transparent 5px, hsla(360, 100%, 30%, 0.5) 5px, hsla(360, 100%, 30%, 0.5) 10px, hsla(160, 53%, 60%, 0) 10px, hsla(160, 53%, 60%, 0) 35px, hsla(160, 53%, 60%, 0.5) 35px, hsla(160, 53%, 60%, 0.5) 40px, hsla(360, 100%, 30%, 0.5) 40px, hsla(360, 100%, 30%, 0.5) 50px, hsla(360, 100%, 30%, 0) 50px, hsla(360, 100%, 30%, 0) 60px, hsla(160, 53%, 60%, 0.5) 60px, hsla(160, 53%, 60%, 0.5) 70px, hsla(200, 5%, 13%, 0.5) 70px, hsla(200, 5%, 13%, 0.5) 80px, hsla(200, 5%, 13%, 0) 80px, hsla(200, 5%, 13%, 0) 90px, hsla(160, 53%, 60%, 0.5) 90px, hsla(160, 53%, 60%, 0.5) 110px, hsla(160, 53%, 60%, 0) 110px, hsla(160, 53%, 60%, 0) 120px, hsla(360, 100%, 30%, 0.5) 120px, hsla(360, 100%, 30%, 0.5) 140px), 
+	repeating-linear-gradient(135deg, transparent 5px, hsla(360, 100%, 30%, 0.5) 5px, hsla(360, 100%, 30%, 0.5) 10px, hsla(160, 53%, 60%, 0) 10px, hsla(160, 53%, 60%, 0) 35px, hsla(160, 53%, 60%, 0.5) 35px, hsla(160, 53%, 60%, 0.5) 40px, hsla(360, 100%, 30%, 0.5) 40px, hsla(360, 100%, 30%, 0.5) 50px, hsla(360, 100%, 30%, 0) 50px, hsla(360, 100%, 30%, 0) 60px, hsla(160, 53%, 60%, 0.5) 60px, hsla(160, 53%, 60%, 0.5) 70px, hsla(200, 5%, 13%, 0.5) 70px, hsla(200, 5%, 13%, 0.5) 80px, hsla(200, 5%, 13%, 0) 80px, hsla(200, 5%, 13%, 0) 90px, hsla(160, 53%, 60%, 0.5) 90px, hsla(160, 53%, 60%, 0.5) 110px, hsla(160, 53%, 60%, 0) 110px, hsla(160, 53%, 60%, 0) 140px, hsla(360, 100%, 30%, 0.5) 140px, hsla(360, 100%, 30%, 0.5) 160px);
+}
+
+#logo{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 52px;
+	margin: 0 150px;
+	color: #fff;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#container{	
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	margin: 10px 150px 0;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+a.text-url{
+	color: rgb(227, 109, 132) !important;
+	text-decoration: none;
+}
+
+a.text-url:hover {
+	color: rgb(205, 50, 81) !important;
+}
+
+.ui-widget-header {
+	background:#b9cd6d;
+	border: 1px solid #b9cd6d;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+ 
+label {
+	display: block;
+}
+ 
+select {
+	width: 175px;
+}
+ 
+.myphoto{
+	padding: 25px 10px 100px 25px; 
+	float: right;
+	height: 250px;
+	width: 250px;
+}
+ 
+.aboutme{
+	margin-left: 0;
+}
+ 
+.social{
+	position: relative;
+	top: -90px;
+	text-align: center;
+	font-size: 40px;
+	color: #2c4359;
+}
+ 
+.social .fb:hover{
+	color: #3b5998;
+}
+ 
+.social .tt:hover{
+	color: #55acee;
+}
+ 
+.social .li:hover{
+	color: #0077b5;
+}
+ 
+.social .fr:hover{
+	color: #ff0084;
+}
+ 
+.clear{ clear: both;}
+
+img.item-vertical{
+	height: 300px;
+	width: 200px;
+}
+
+img.item-horizontal{
+	height: 200px;
+	width: 300px;
+}
+
+article{
+	padding: 20px 0 0 20px;
+	float: left;
+}
+
+.footer{
+	font-size: 14px;
+	position: relative;
+	bottom: -20px;
+	text-align: center;
+}
