@@ -85,21 +85,6 @@ select {
  
 .clear{ clear: both;}
 
-img.item-vertical{
-	height: 300px;
-	width: 200px;
-}
-
-img.item-horizontal{
-	height: 200px;
-	width: 300px;
-}
-
-article{
-	padding: 20px 0 0 20px;
-	float: left;
-}
-
 .footer{
 	font-size: 14px;
 	position: relative;
@@ -108,5 +93,20 @@ article{
 }
 
 img{
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5)
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.photos{
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+.photos article{
+	margin-bottom: 20px;
+}
+
+.photos article img{
+	width: 100%;
+	height: auto;
 }
