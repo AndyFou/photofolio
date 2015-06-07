@@ -3,6 +3,8 @@ body {
 	background-image: 
 	repeating-linear-gradient(45deg, transparent 5px, hsla(360, 100%, 30%, 0.5) 5px, hsla(360, 100%, 30%, 0.5) 10px, hsla(160, 53%, 60%, 0) 10px, hsla(160, 53%, 60%, 0) 35px, hsla(160, 53%, 60%, 0.5) 35px, hsla(160, 53%, 60%, 0.5) 40px, hsla(360, 100%, 30%, 0.5) 40px, hsla(360, 100%, 30%, 0.5) 50px, hsla(360, 100%, 30%, 0) 50px, hsla(360, 100%, 30%, 0) 60px, hsla(160, 53%, 60%, 0.5) 60px, hsla(160, 53%, 60%, 0.5) 70px, hsla(200, 5%, 13%, 0.5) 70px, hsla(200, 5%, 13%, 0.5) 80px, hsla(200, 5%, 13%, 0) 80px, hsla(200, 5%, 13%, 0) 90px, hsla(160, 53%, 60%, 0.5) 90px, hsla(160, 53%, 60%, 0.5) 110px, hsla(160, 53%, 60%, 0) 110px, hsla(160, 53%, 60%, 0) 120px, hsla(360, 100%, 30%, 0.5) 120px, hsla(360, 100%, 30%, 0.5) 140px), 
 	repeating-linear-gradient(135deg, transparent 5px, hsla(360, 100%, 30%, 0.5) 5px, hsla(360, 100%, 30%, 0.5) 10px, hsla(160, 53%, 60%, 0) 10px, hsla(160, 53%, 60%, 0) 35px, hsla(160, 53%, 60%, 0.5) 35px, hsla(160, 53%, 60%, 0.5) 40px, hsla(360, 100%, 30%, 0.5) 40px, hsla(360, 100%, 30%, 0.5) 50px, hsla(360, 100%, 30%, 0) 50px, hsla(360, 100%, 30%, 0) 60px, hsla(160, 53%, 60%, 0.5) 60px, hsla(160, 53%, 60%, 0.5) 70px, hsla(200, 5%, 13%, 0.5) 70px, hsla(200, 5%, 13%, 0.5) 80px, hsla(200, 5%, 13%, 0) 80px, hsla(200, 5%, 13%, 0) 90px, hsla(160, 53%, 60%, 0.5) 90px, hsla(160, 53%, 60%, 0.5) 110px, hsla(160, 53%, 60%, 0) 110px, hsla(160, 53%, 60%, 0) 140px, hsla(360, 100%, 30%, 0.5) 140px, hsla(360, 100%, 30%, 0.5) 160px);
+	background-attachment: fixed;
+	height: 100%;
 }
 
 #logo{
