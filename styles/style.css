@@ -1,3 +1,5 @@
+/*  GENERAL RULES  */
+
 body {
 	background-color: hsl(0, 0%, 87%);
 	background-image: 
@@ -16,12 +18,36 @@ body {
 	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-#container{	
+#container-out{
+	margin: 10px 150px 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	background-color: #fff;
+	color: #2c4359;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+}
+
+#container-in{	
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 18px;
-	margin: 10px 150px 0;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	border-color: transparent;
 }
+
+#footer{
+	font-size: 14px;
+	position: relative;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.clear{ clear: both;}
+
+h1, h2, h3, .tabs li{
+	font-family: 'Raleway', sans-serif;
+}
+
+/*  LINKS  */
 
 a.text-url{
 	color: rgb(227, 109, 132) !important;
@@ -38,15 +64,30 @@ a.text-url:hover {
 	color: #FFFFFF;
 	font-weight: bold;
 }
- 
-label {
-	display: block;
+
+/*  PHOTOS  */
+
+img{
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
- 
-select {
-	width: 175px;
+
+.photos{
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
 }
- 
+
+.photos article{
+	margin-bottom: 20px;
+}
+
+.photos article img{
+	width: 100%;
+	height: auto;
+}
+
+/*  ABOUT ME - PHOTO  */
+
 .myphoto{
 	padding: 15px 0 100px 25px; 
 	float: right;
@@ -83,30 +124,25 @@ select {
 	color: #ff0084;
 }
  
-.clear{ clear: both;}
+/*  OTHER  */
 
-.footer{
-	font-size: 14px;
-	position: relative;
-	bottom: -20px;
-	text-align: center;
+label {
+	display: block;
+}
+ 
+select {
+	width: 175px;
 }
 
-img{
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+h1.title{
+	margin-top: 0;
+	text-align: right;
 }
 
-.photos{
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
+i.fa-home{
+	font-size: 23px;
 }
 
-.photos article{
-	margin-bottom: 20px;
-}
-
-.photos article img{
-	width: 100%;
-	height: auto;
+.tabs li:hover{
+	
 }
