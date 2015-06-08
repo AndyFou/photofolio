@@ -48,6 +48,17 @@ h1, h2, h3, .tabs li{
 }
 
 /*  LINKS  */
+a{
+	text-decoration: none;
+}
+
+#logo a{
+	color: #fff;
+}
+
+#logo a:hover{
+	color: #fff;
+}
 
 a.text-url{
 	color: rgb(227, 109, 132) !important;
