@@ -32,6 +32,7 @@ body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 18px;
 	border-color: transparent;
+	min-height: 400px;
 }
 
 #footer{
@@ -90,6 +91,7 @@ img{
 
 .photos article{
 	margin-bottom: 20px;
+	display: inline-block;
 }
 
 .photos article img{
